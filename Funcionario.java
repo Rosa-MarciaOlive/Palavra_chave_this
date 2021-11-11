@@ -21,6 +21,7 @@ public class Funcionario{
         return this.salario;
     }
 
-
-
+public double getBonificacao(){
+    return this.salario*0.10;
+}
 }

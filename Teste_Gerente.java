@@ -20,5 +20,11 @@ public class Teste_Gerente{
             System.out.println("Senha invalida.");
         }
 
+    //Testando o retorno de bonificação
+    System.out.println("Gerente: " + g.getNome());
+    System.out.println("Salário de: " + g.getSalario());
+    System.out.println("Bonificação de: "+ g.getBonificacao());
+
+
     }
 }
